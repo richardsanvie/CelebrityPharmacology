@@ -1,0 +1,49 @@
+    *{
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    section{
+        max-width: 2500px;
+        margin: 0 auto;
+    }
+
+    .container{
+        margin:  8px auto;
+        border-radius: 3px;
+    }
+
+    .carousel-inner{
+        height: 600px;
+    }
+
+    .imageContainer{
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1494752506380-096c49c33b8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1540&q=80);
+    }
+
+    .imageContainer {
+        height: 600px;
+    }
+    
+    .carousel-caption{
+        text-align: start;
+    }
+    
+    .card{
+        height: 600px;
+    }
+
+    .card-body,
+    .card-img-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-link:hover {
+        text-decoration: underline;
+    }
